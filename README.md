@@ -3,15 +3,15 @@
 <p>A simple chat with socket.io</p>
 <p>The style css is using sass</p>
 
-##on Heroku
-<a href="">Talk Socket Heroku</a>
+## On Heroku
+<a href="https://talk-socket.herokuapp.com/">Talk Socket Heroku</a>
 
 
 ## Getting started
-###Install dependences:
+### Install dependences:
 . npm install
 
-###Dependences:
+### Dependences:
 <ul>
  <li>Body-parser: 1.18.2</li> 
  <li>Express: 4.16.2</li>
