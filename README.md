@@ -17,7 +17,6 @@
  <li>Express: 4.16.2</li>
  <li>Gulp: 3.9.1</li>
  <li>Gulp-sass: 3.1.0</li>
- <li>Gulp-sass: 3.1.0</li>
  <li>socket.io: 2.0.3</li>
 </ul>
 
