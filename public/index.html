@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <title>Socket.IO chat</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <ul class="pages">
+
+    <!-- Chat page after do login, you can talk! -->
+
+    <li class="chat page">
+      <div class="chat">
+        <div id="messages_history"></div>
+          <form>
+            <input id="messageInput" autocomplete="off">
+            <button id="send_message">Send</button>
+          </form>
+      </div>
+
+    </li>
+    <!-- Login page. First web's page -->
+
+    <li class="login">
+      <div class="form">
+        <h1 align="center">Chat</h1>
+        <input class="userName" type="text" /><br />
+        <button id="chatlogin">Enter</button>
+      </div>
+
+    </li>
+
+  </ul>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/jquery.js"></script>
+  <script src="/main.js"></script>
+  <script src="/click.js"></script>
+  <script src="/socket.js"></script>
+
+</body>
+</html>

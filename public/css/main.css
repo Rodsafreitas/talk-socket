@@ -1,0 +1,69 @@
+.chat.page {
+  display: none;
+}
+
+body {
+  background-color: #808080;
+  font: 13px Helvetica, Arial;
+}
+
+li {
+  color: #808080;
+}
+
+h1 {
+  color: #FFF;
+}
+
+.messages_history {
+  color: #FFF;
+}
+
+#chatlogin, #send_message {
+  background-color: #FFF;
+  color: #808080;
+  border-color: #808080;
+  border-radius: 10px;
+}
+
+#chatlogin {
+  width: 20%;
+  margin-left: 40%;
+  padding: 1%;
+}
+
+.userName {
+  margin-left: 25%;
+  width: 50%;
+  margin-bottom: 2%;
+  padding: 0.4%;
+}
+
+.form {
+  margin-top: 20%;
+}
+
+form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  width: 80%;
+  margin-right: .5%;
+  margin-bottom: 1%;
+}
+
+form button {
+  width: 9%;
+  background: #808080;
+  border: none;
+  padding: 10px;
+}
+
+#messages_history {
+  color: #FFF;
+}

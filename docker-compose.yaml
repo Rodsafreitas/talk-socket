@@ -1,0 +1,12 @@
+PostgreSQL:
+  restart: always
+  image: data
+  ports:
+    - "5432:5432"
+  environment:
+    - DEBUG=false
+    - DB_USER=pg
+    - DB_PASS=pg
+    - DB_NAME=pg
+  volumes:
+    - /srv/docker/postgresql:/var/lib/postgresql
